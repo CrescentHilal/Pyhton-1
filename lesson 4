@@ -1,0 +1,63 @@
+my_list = ["a", "b", "c"]
+for i in my_list:
+   print(i)
+   print("x")
+
+size = int(input("enter a size: "))
+
+for i in range(0, size):
+    print("|_" *size + "|")
+
+height = int(input("enter a height: "))
+
+print(" ")
+for i in range(height):
+    print((height-i-1)" " + (2*i+1)"*")
+    
+    
+print ((height-1)" " + "")
+
+city = input("Enter a city name that ending eith 'li': ")
+repeat = int(input("Enter a 'li' size: "))
+
+for i in range(repeat):
+    print(city + "li" *repeat + "le")
+
+def length_comparer(word1, word2):
+    if(len(word1) == len(word2)):
+        print("Their length are same")
+        
+    elif(len(word1) < len(word2)):
+        print(f"{word2} is longer")
+        
+    else:
+        print(f"{word1} is longer")
+        
+length_comparer(input(word1,word2))
+
+starnword = input("Type spmething: ")
+print(f"{starnword}")
+print("_"*len(starnword))
+
+your_input = input("Your Input:")
+
+print( 18 * "-")
+
+print( "|" + ((18 - len(your_input)) // 2) * ">" +your_input+ ((18 - len(your_input)) // 2) * "<" + "|" )
+
+  game_name = "Wolfenstein"
+print(game_name[3:5])
+print(game_name[3:])
+print(game_name[:5])
+
+
+text = input("enter str: ")
+item = input("enter item: ")
+
+if item in text:
+    print("found")
+else:
+    print("not found")
+
+
+  
